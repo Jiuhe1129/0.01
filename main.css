@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+li {
+    list-style: none;
+}
+
+body>div {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.nav {
+    width: 1920px;
+    margin: 0 auto;
+    height: 500px;
+    background: url(imgs/banner.jpg) no-repeat center;
+}
+
+.nav-nr {
+    margin: 0 auto;
+    width: 70%;
+    height: 100px;
+}
+
+.nav-nr img {
+    float: left;
+    margin-top: 10px;
+}
+
+.nav-nr ul {
+    float: right;
+}
+
+.nav-nr ul li {
+    float: left;
+    margin-left: 50px;
+    font-size: 22px;
+}
+
+.nav ul li:hover {
+    transition: 1s;
+}
+
+.nav-nr a {
+    line-height: 100px;
+    color: #ea4335;
+}
+
+.banner {
+    width: 1920px;
+    height: 400px;
+    line-height: 250px;
+    text-align: center;
+}
+
+.banner a {
+    margin-left: 30px;
+    font-size: 60px;
+    color: #fff;
+    transition: 1s;
+}
+
+.banner a:hover {
+    transition: 1s;
+    color: #ea4335;
+}
+
+.main {
+    width: 1920px;
+    height: 600px;
+}
+
+.main-nr {
+    margin: 0 auto;
+    width: 70%;
+    height: 400px;
+}
+
+.main-nr span {
+    text-align: center;
+}
+
+.main .main-nr ul,
+h2,
+img {
+    margin-top: 50px;
+}
+
+.main-nr img {
+    float: left;
+}
+
+.main-nr ul {
+    float: right;
+    font-size: 22px;
+    line-height: 45px;
+    color: #616161;
+}
+
+.main-nr span {
+    color: #ea4335;
+}
+
+.main-2 {
+    margin: 0 auto;
+    width: 70%;
+    height: 300px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.main h2 {
+    color: #ea4335;
+}
+.main-2 ul{
+    margin-top: 30px;
+}
+.main-2 ul li {
+    width: 150px;
+    height: 50px;
+    line-height: 50px;
+    background: #ea4335;
+    border-radius: 25px;
+    font-size: 30px;
+    margin-left: 150px;
+    float: left;
+    margin-top: 50px;
+
+}
+
+.main-2 a {
+    color: #fff;
+}
+
+
+
+@media screen and (max-width: 1000px) {
+    .nav {
+        width: 100%;
+    }
+
+    .nav img {
+        float: left;
+        width: 50px;
+        height: 50px;
+    }
+
+    .nav ul li {
+        float: right;
+        font-size: 15px;
+        margin-top: -5%;
+    }
+
+    .banner {
+        width: 100%;
+    }
+
+    .banner a {
+        font-size: 40px;
+        margin: 0;
+    }
+
+    .main {
+        width: 100%;
+        height: 1250px;
+    }
+
+    .main img {
+        width: 100%;
+    }
+
+    .main span{
+font-size: 15px;
+    }
+
+    .main ul li {
+        font-size: 13px;
+        line-height: 30px;
+    }
+    .main-2{
+        width: 100%;
+        float: none;
+    }
+    
+    .main-2 h2{
+    margin-top: 420px;    }
+
+    .main-2 ul{
+        margin-top:50px;
+        padding-left: 28%;
+    }
+
+    .main-2 ul li{
+        line-height: 50px;
+        margin: 0 auto;
+        margin-left: 7px;
+        margin-bottom: 7px;
+    }
+}   
