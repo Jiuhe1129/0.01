@@ -191,7 +191,7 @@ font-size: 15px;
     }
     
     .main-2 h2{
-    margin-top: 450px;    }
+    margin-top: 120px;    }
 
     .main-2 ul{
         margin-top:50px;
@@ -203,5 +203,8 @@ font-size: 15px;
         margin: 0 auto;
         margin-left: 7px;
         margin-bottom: 7px;
+    }
+    .m{
+        display: none;
     }
 }   
